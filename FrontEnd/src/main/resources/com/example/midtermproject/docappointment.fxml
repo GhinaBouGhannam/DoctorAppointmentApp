@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermproject.docAppointmentController">
+    <DatePicker fx:id="datePicker" layoutX="598.0" layoutY="74.0" onAction="#handleDateSelection" prefHeight="26.0"  prefWidth="218.0" style="-fx-background-color: #ffffff;"  />
+    <ListView fx:id="listview" layoutX="231.0" layoutY="252.0" prefHeight="400.0" prefWidth="631.0"  />
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1893f8" height="689.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+    <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="34.0" layoutY="66.0">
+        <image>
+            <Image url="@../../../images/logo_below.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="239.0">
+        <image>
+            <Image url="@../../../images/home.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="300.0">
+        <image>
+            <Image url="@../../../images/categories.png" />
+        </image>
+    </ImageView>
+    <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="359.0">
+        <image>
+            <Image url="@../../../images/calendar.png" />
+        </image>
+    </ImageView>
+    <Label layoutX="75.0" layoutY="243.0" onMouseClicked="#handleHome" text="Home">
+        <font>
+            <Font name="Arial Black" size="12.0" />
+        </font>
+    </Label>
+    <Label layoutX="70.0" layoutY="304.0" onMouseClicked="#handleNewAppointments" text="New Appointments">
+        <font>
+            <Font name="Arial Black" size="12.0" />
+        </font>
+    </Label>
+    <Label layoutX="71.0" layoutY="363.0" onMouseClicked="#handleAppointments" text="Appointments">
+        <font>
+            <Font name="Arial Black" size="12.0" />
+        </font>
+    </Label>
+    <Label layoutX="18.0" layoutY="590.0" text="All copyrights reserved " textFill="WHITE">
+        <font>
+            <Font size="10.0" />
+        </font>
+    </Label>
+    <Label layoutX="33.0" layoutY="606.0" text="HealthHub 2024" textFill="WHITE">
+        <font>
+            <Font size="11.0" />
+        </font>
+    </Label>
+    <Label layoutX="318.0" layoutY="38.0" text="Appointments">
+        <font>
+            <Font name="Arial Black" size="24.0" />
+        </font>
+    </Label>
+    <ImageView fitHeight="44.0" fitWidth="50.0" layoutX="241.0" layoutY="35.0">
+        <image>
+            <Image url="@../../../images/calendar.png" />
+        </image>
+    </ImageView>
+   <Label layoutX="74.0" layoutY="501.0" onMouseClicked="#handlelogout" text="LOG OUT" textFill="WHITE">
+      <font>
+         <Font name="Arial Black" size="12.0" />
+      </font>
+   </Label>
+</AnchorPane>

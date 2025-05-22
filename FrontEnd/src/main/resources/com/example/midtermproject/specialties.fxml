@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermproject.SpecialtiesController">
+    <children>
+        <VBox fx:id="specialties" layoutX="208.0" layoutY="163.0" prefHeight="482.0" prefWidth="772.0">
+            <children>
+                <HBox prefHeight="146.0" prefWidth="823.0" spacing="10">
+                    <children>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Pediatrics" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #1893f8; -fx-background-radius: 10;" text="Orthopedics" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Cardiology" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #1893f8; -fx-background-radius: 10;" text="Neurology" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Physical Therapy" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+
+                    </children>
+                </HBox>
+                <HBox prefHeight="146.0" prefWidth="823.0" spacing="10">
+                    <children>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #1893f8; -fx-background-radius: 10;" text="Anesthesiology" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Dermatology" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #1893f8; -fx-background-radius: 10;" text="Emergency Medicine" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Endocrinology" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #1893f8; -fx-background-radius: 10;" text="Family Care" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+                <HBox prefHeight="146.0" prefWidth="823.0" spacing="10">
+                    <children>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Psychiatry" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #1893f8 #1893f8; -fx-background-radius: 10;" text="Surgery" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Ophthalmology" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #1893f8; -fx-background-radius: 10;" text="Pulmonology" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                        <Label alignment="CENTER" onMouseClicked="#handleClick" prefHeight="110.0" prefWidth="140.0" style="-fx-background-color: #56aeff; -fx-background-radius: 10;" text="Internal Medicine" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                            </opaqueInsets>
+                            <font>
+                                <Font name="Arial" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1893f8" height="689.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="179.0" />
+      <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="34.0" layoutY="66.0">
+         <image>
+            <Image url="@../../../images/logo_below.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="239.0">
+         <image>
+            <Image url="@../../../images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="300.0">
+         <image>
+            <Image url="@../../../images/categories.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="359.0">
+         <image>
+            <Image url="@../../../images/calendar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="416.0">
+         <image>
+            <Image url="@../../../images/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="243.0" onMouseClicked="#openHome" text="Home">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="304.0" onMouseClicked="#openSpecialty" text="Specialty">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="363.0" onMouseClicked="#openAppointments" text="Appointments">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="419.0" onMouseClicked="#openUser" text="User">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="590.0" text="All copyrights reserved " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="606.0" text="HealthHub 2024" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search" layoutX="421.0" layoutY="109.0" prefHeight="27.0" prefWidth="241.0" promptText="search" />
+      <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="629.0" layoutY="112.0" onMouseClicked="#initialize">
+         <image>
+            <Image url="@../../../images/searchicon.jpg" />
+         </image>
+      </ImageView>
+
+    </children>
+
+</AnchorPane>

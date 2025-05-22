@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.DatePicker?>
+<AnchorPane prefHeight="680.0" prefWidth="900.0" style="-fx-background-color: #ececec;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermproject.appointmentController">
+   <children>
+      <Label layoutX="250.0" layoutY="165.0">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1893f8" height="687.0" layoutX="-7.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="179.0" />
+      <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="27.0" layoutY="58.0">
+         <image>
+            <Image url="@../../../images/logo_below.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="26.0" layoutY="231.0">
+         <image>
+            <Image url="@../../../images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="26.0" layoutY="292.0">
+         <image>
+            <Image url="@../../../images/categories.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="26.0" layoutY="351.0">
+         <image>
+            <Image url="@../../../images/calendar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="26.0" layoutY="408.0">
+         <image>
+            <Image url="@../../../images/user.png" />
+         </image>
+      </ImageView>
+      <Label onMouseClicked="#openHome" layoutX="68.0" layoutY="235.0" text="Home">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label onMouseClicked="#openSpecialty" layoutX="63.0" layoutY="296.0" text="Specialty">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label onMouseClicked="#openAppointments" layoutX="64.0" layoutY="355.0" text="Appointments">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label onMouseClicked="#openUser" layoutX="63.0" layoutY="411.0" text="User">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="582.0" text="All copyrights reserved " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="598.0" text="HealthHub 2024" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="144.0" prefHeight="253.0" prefWidth="206.0" style="-fx-background-radius: 35; -fx-background-color: #ffffff;" />
+      <Label fx:id="docspecialty" layoutX="201.0" layoutY="241.0" prefHeight="30.0" prefWidth="158.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="docaddress" layoutX="202.0" layoutY="281.0" prefHeight="22.0" prefWidth="158.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="availaility" layoutX="201.0" layoutY="321.0" prefHeight="30.0" prefWidth="177.0">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="docname" layoutX="230.0" layoutY="178.0" prefHeight="30.0" prefWidth="134.0">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="411.0" layoutY="58.0" prefHeight="42.0" prefWidth="384.0" style="-fx-background-radius: 25; -fx-background-color: #ffffff;" text="             Book Appointment" textFill="#56aeff">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="date" layoutX="451.0" layoutY="206.0"  prefHeight="26.0" prefWidth="170.0" />
+      <TextField fx:id="time" layoutX="655.0" layoutY="206.0" prefHeight="26.0" prefWidth="170.0" promptText="hh:mm" />
+      <Label layoutX="194.0" layoutY="514.0" prefHeight="123.0" prefWidth="339.0" style="-fx-background-color: #ffffff;" />
+      <Label layoutX="202.0" layoutY="532.0" text="Expected Appointment Fees:" textFill="#599bbc">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="206.0" layoutY="566.0" text="Contact in case of urgency:" textFill="#599bbc">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="202.0" layoutY="604.0" text="Email for any inquiries:" textFill="#599bbc">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+
+      <Label fx:id="fees" layoutX="398.0" layoutY="532.0" prefHeight="20.0" prefWidth="79.0" textFill="#2b6d91">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="phonenumber" layoutX="398.0" layoutY="566.0" prefHeight="20.0" prefWidth="104.0" textFill="#2b6d91">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" layoutX="359.0" layoutY="604.0" prefHeight="20.0" prefWidth="143.0" textFill="#2b6d91">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="655.0" layoutY="185.0" text="Starting time:" textFill="#56aeff">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="185.0" text="Prefered Date:" textFill="#56aeff">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="676.0" layoutY="520.0" prefHeight="82.0" prefWidth="189.0" style="-fx-background-color: #56aeff; -fx-background-radius: 22;" />
+      <Label layoutX="698.0" layoutY="529.0" prefHeight="42.0" prefWidth="150.0" text="Choose your appointment" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="698.0" layoutY="551.0" prefHeight="42.0" prefWidth="158.0" text="based on doctor's availability">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Label>
+      <Button layoutX="579.0" layoutY="355.0" mnemonicParsing="false" onMouseClicked="#handleClick" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: #56aeff;" text="Confirm" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblerror" layoutX="547.0" layoutY="395.0" prefHeight="22.0" prefWidth="216.0" />
+      <TextField fx:id="description" layoutX="450.0" layoutY="290.0" prefHeight="26.0" prefWidth="376.0" style="-fx-background-radius: 22;" />
+      <Label layoutX="459.0" layoutY="268.0" text="Description:" textFill="#56aeff">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

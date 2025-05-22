@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="900.0" style="-fx-background-color: #f3f7fa;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermproject.userController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1893f8" height="693.0" layoutX="-3.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="182.0" />
+      <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="34.0" layoutY="69.0">
+         <image>
+            <Image url="@../../../images/logo_below.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="242.0">
+         <image>
+            <Image url="@../../../images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="303.0">
+         <image>
+            <Image url="@../../../images/categories.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="362.0">
+         <image>
+            <Image url="@../../../images/calendar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="419.0">
+         <image>
+            <Image url="@../../../images/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="246.0" onMouseClicked="#openHome" text="Home">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="307.0" onMouseClicked="#openSpecialty" text="Specialty">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="366.0" onMouseClicked="#openAppointments" text="Appointments">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="422.0" text="User">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="593.0" text="All copyrights reserved " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="609.0" text="HealthHub 2024" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Button fx:id="logout" layoutX="215.0" layoutY="578.0" mnemonicParsing="false" onAction="#handlelogout" style="-fx-background-color: #f3f7fa;" text="Log out">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="delete" layoutX="215.0" layoutY="609.0" mnemonicParsing="false" onAction="#handledelete" style="-fx-background-color: #f3f7fa;" text="Delete Account">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Label layoutX="610.0" layoutY="444.0" prefHeight="153.0" prefWidth="262.0" style="-fx-background-color: #ffffff; -fx-background-radius: 7;" />
+      <Label layoutX="630.0" layoutY="456.0" style="-fx-background-color: #ffffff;" text="Support" textFill="#5988b9">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="630.0" layoutY="512.0" text="For any issue or inquiry, contact us">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="536.0" text="supportcenter@healthhub.lb" textFill="#5988b9">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="56.0" prefHeight="46.0" prefWidth="146.0" text="User Account">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="239.0" layoutY="56.0">
+         <image>
+            <Image url="@../../../images/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="262.0" layoutY="227.0" text="Change Username">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="283.0" text="Change Password">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernametxt" layoutX="415.0" layoutY="222.0" prefHeight="26.0" prefWidth="208.0" />
+      <TextField fx:id="passwordtxt" layoutX="415.0" layoutY="278.0" prefHeight="26.0" prefWidth="208.0" />
+      <Button fx:id="usernamebtn" layoutX="659.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleusername" style="-fx-background-color: #1893f8;" text="Confirm Username" />
+      <Button fx:id="passwordbtn" layoutX="661.0" layoutY="278.0" mnemonicParsing="false" onAction="#handlepassword" style="-fx-background-color: #1893f8;" text="Confirm Password" />
+      <Label layoutX="262.0" layoutY="337.0" text="Change Phone Number">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numbertxt" layoutX="415.0" layoutY="331.0" prefHeight="26.0" prefWidth="208.0" />
+      <Button fx:id="phonenumberbtn" layoutX="661.0" layoutY="332.0" mnemonicParsing="false" onAction="#handlephonenumber" style="-fx-background-color: #1893f8;" text="Confirm Phone Number" />
+      <Label fx:id="lblnoti" layoutX="368.0" layoutY="387.0" prefHeight="15.0" prefWidth="277.0" />
+   </children>
+</AnchorPane>

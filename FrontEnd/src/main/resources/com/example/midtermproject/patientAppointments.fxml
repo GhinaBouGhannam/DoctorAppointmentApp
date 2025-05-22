@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermproject.patientAppointmentsController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1893f8" height="689.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="179.0" />
+      <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="34.0" layoutY="66.0">
+         <image>
+            <Image url="@../../../images/logo_below.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="239.0">
+         <image>
+            <Image url="@../../../images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="300.0">
+         <image>
+            <Image url="@../../../images/categories.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="359.0">
+         <image>
+            <Image url="@../../../images/calendar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="416.0">
+         <image>
+            <Image url="@../../../images/user.png" />
+         </image>
+      </ImageView>
+      <Label  onMouseClicked="#openHome" layoutX="75.0" layoutY="243.0" text="Home">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label onMouseClicked="#openSpecialty" layoutX="70.0" layoutY="304.0" text="Specialty">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label onMouseClicked="#openAppointments" layoutX="71.0" layoutY="363.0" text="Appointments">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label onMouseClicked="#openUser" layoutX="70.0" layoutY="419.0" text="User">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="590.0" text="All copyrights reserved " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="606.0" text="HealthHub 2024" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="58.0" fitWidth="62.0" layoutX="235.0" layoutY="66.0">
+         <image>
+            <Image url="@../../../images/calendar.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="322.0" layoutY="81.0" text="Appointments">
+         <font>
+            <Font name="Arial Black" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox" layoutX="703.0" layoutY="209.0" onAction="#handleComboBox" prefHeight="26.0" prefWidth="120.0" promptText="today" style="-fx-background-color: #1893f8;">
+      <items>
+         <FXCollections fx:factory="observableArrayList">
+            <String fx:id="today" fx:value="today" />
+            <String fx:id="history" fx:value="history" />
+            <String fx:id="future" fx:value="future" />
+         </FXCollections>
+      </items>
+   </ComboBox>
+   <TableView fx:id="tableview" layoutX="201.0" layoutY="285.0" prefHeight="370.0" prefWidth="662.0" style="-fx-background-color: #1893f8;">
+        <columns>
+          <TableColumn fx:id="datecol" prefWidth="95.99993896484375" text="Date" />
+          <TableColumn fx:id="timecol" prefWidth="89.59991455078125" text="Time" />
+            <TableColumn fx:id="namecol" prefWidth="116.0" text="Doctor Name" />
+            <TableColumn fx:id="numcol" prefWidth="136.00003051757812" text="Phone Number" />
+            <TableColumn fx:id="emailcol" prefWidth="132.00006103515625" text="Email" />
+            <TableColumn fx:id="sttscol" prefWidth="89.60000000000002" text="Status" />
+        </columns>
+      </TableView>
+      <Label fx:id="lbldate" layoutX="266.0" layoutY="165.0" prefHeight="58.0" prefWidth="266.0" text="Today" textFill="#2aabb9">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchfield"  layoutX="591.0" layoutY="89.0"   prefHeight="27.0" prefWidth="241.0" promptText="search" />
+      <Label fx:id="lblNoti" layoutX="254.0" layoutY="256.0" prefHeight="58.0" prefWidth="317.0" textFill="#3a943d" />
+      <ImageView onMouseClicked="#searchAppointmentsByDate" fitHeight="22.0" fitWidth="27.0" layoutX="806.0" layoutY="92.0" >
+         <image>
+            <Image url="@../../../images/searchicon.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

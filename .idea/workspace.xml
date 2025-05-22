@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="937f521b-d8c3-445f-afe1-4e47f17616e4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/Exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/SpringbootApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/controllers/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/controllers/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/controllers/ValidationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/hibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/model/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/model/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/repository/appointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/repository/doctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/repository/userRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/service/DoctorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/service/appointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/service/userservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/validation/DateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/validation/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/validation/TimeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/validation/ValidDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/validation/ValidPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/java/com/example/springboot/validation/ValidTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackEnd/demo/src/test/java/com/example/springboot/SpringbootApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.idea/artifacts/midtermproject_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/ConfirmationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/DochomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/EditdoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/HTTPCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/SignupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/SpecialtiesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/adddoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/adminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/appointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/docAppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/docnewAppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/doctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/doctorslistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/patientAppointmentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/com/example/midtermproject/userController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/Confirmation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/Login.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/Signup.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/adddoctor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/admin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/appointment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/docappointment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/dochome.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/docnewappointment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/doctor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/doctorslist.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/editdoctor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/patientAppointments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/specialties.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/com/example/midtermproject/user.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/adddoctor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/bac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/categories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/confirmed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/hooray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/logo_below.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/logo_bluebg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/logo_lighterblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/searchicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontEnd/src/main/resources/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\cmd\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2xRqWaVzzu0CHZT3moWTm9FzQ7Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/OneDrive/Java Tech/Doctor_Appointment_App",
+    "onboarding.tips.debug.path": "C:/Users/User/OneDrive/Java Tech/Doctor_Appointment_App/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\OneDrive\Java Tech\Doctor_Appointment_App" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="937f521b-d8c3-445f-afe1-4e47f17616e4" name="Changes" comment="" />
+      <created>1747911270301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747911270301</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

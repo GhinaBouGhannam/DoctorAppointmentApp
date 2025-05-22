@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermproject.docnewAppointmentController">
+   <children>
+      <TableView fx:id="tableview" layoutX="222.0" layoutY="241.0" prefHeight="428.0" prefWidth="658.0">
+        <columns>
+          <TableColumn fx:id="timecol" prefWidth="93.5999984741211" text="start time" />
+          <TableColumn fx:id="datecol" prefWidth="95.20001220703125" style="fx-background-color: #1893f8;" text="date" />
+            <TableColumn fx:id="namecol" prefWidth="116.800048828125" text="patient's name" />
+            <TableColumn fx:id="numcol" prefWidth="164.00006103515625" text="patient's phone number" />
+         <TableColumn fx:id="accept" minWidth="0.0" prefWidth="83.20001220703125" text="Accept" />
+            <TableColumn fx:id="reject" prefWidth="94.4000244140625" text="Reject" />
+        </columns>
+      </TableView>
+      <Label fx:id="notilbl" layoutX="423.0" layoutY="215.0" prefHeight="18.0" prefWidth="231.0" />
+      <TextField fx:id="searchfield" layoutX="614.0" layoutY="125.0" prefHeight="27.0" prefWidth="241.0" promptText="search" style="-fx-background-color: #ffffff;" />
+      <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="829.0" layoutY="128.0" onMouseClicked="#searchAppointmentsByDate">
+         <image>
+            <Image url="@../../../images/searchicon.jpg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1893f8" height="693.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="200.0" />
+      <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="34.0" layoutY="69.0">
+         <image>
+            <Image url="@../../../images/logo_below.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="242.0">
+         <image>
+            <Image url="@../../../images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="303.0">
+         <image>
+            <Image url="@../../../images/categories.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="33.0" layoutY="362.0">
+         <image>
+            <Image url="@../../../images/calendar.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="246.0" onMouseClicked="#handleHome" text="Home">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="307.0" onMouseClicked="#handleNewAppointments" text="New Appointments">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="366.0" onMouseClicked="#handleAppointments" text="Appointments">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="593.0" text="All copyrights reserved " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="609.0" text="HealthHub 2024" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="313.0" layoutY="48.0" prefHeight="42.0" prefWidth="273.0" text="New Appointments">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="68.0" fitWidth="73.0" layoutX="230.0" layoutY="35.0">
+         <image>
+            <Image url="@../../../images/categories.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="70.0" layoutY="500.0" onMouseClicked="#handlelogout" text="LOG OUT" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

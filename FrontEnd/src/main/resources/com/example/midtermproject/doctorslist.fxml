@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.midtermproject.doctorslistController">
+   <children>
+      <ListView fx:id="doctorListView" layoutX="379.0" layoutY="251.0" prefHeight="359.0" prefWidth="342.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1893f8" height="691.0" layoutX="-7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="189.0" />
+      <ImageView fitHeight="113.0" fitWidth="120.0" layoutX="37.0" layoutY="68.0">
+         <image>
+            <Image url="@../../../images/logo_below.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="36.0" layoutY="241.0">
+         <image>
+            <Image url="@../../../images/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="36.0" layoutY="302.0">
+         <image>
+            <Image url="@../../../images/categories.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="36.0" layoutY="361.0">
+         <image>
+            <Image url="@../../../images/calendar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="36.0" layoutY="418.0">
+         <image>
+            <Image url="@../../../images/user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="245.0" onMouseClicked="#openHome" text="Home">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="306.0" onMouseClicked="#openSpecialty" text="Specialty">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="365.0" onMouseClicked="#openAppointments" text="Appointments">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="421.0" onMouseClicked="#openUser" text="User">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="592.0" text="All copyrights reserved " textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="608.0" text="HealthHub 2024" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="notilbl" layoutX="416.0" layoutY="256.0" prefHeight="27.0" prefWidth="258.0" textFill="#e1180d">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="titlelbl" layoutX="266.0" layoutY="54.0" prefHeight="45.0" prefWidth="296.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="searchtxt" layoutX="642.0" layoutY="153.0" prefHeight="27.0" prefWidth="241.0" promptText="search"  onMouseClicked="#handleSearch"/>
+      <ImageView fitHeight="22.0" fitWidth="27.0" layoutX="857.0" layoutY="156.0" onMouseClicked="#handleSearch">
+         <image>
+            <Image url="@../../../images/searchicon.jpg" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>
